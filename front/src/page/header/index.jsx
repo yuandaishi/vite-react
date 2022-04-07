@@ -7,7 +7,7 @@ const {tabArr,changeBread} = Bread;
 
 const Top = (props) => {
   // props就是父组件传过来的数据
-  console.log("header执行");
+  // console.log("header执行");
   return (
     <>
       <div className="logo" />

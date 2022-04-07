@@ -6,7 +6,7 @@ import { Bread } from "@/store";
 
 // 推荐使用mobx和函数式组件开发，只需要observer和makeAutoObservable两个方法，一切的状态问题都不是问题，并且直接解决了react的优化问题
 const BreadDom = observer(()=> {
-  console.log('breadcrumb执行')
+  // console.log('breadcrumb执行')
   return (
     <Breadcrumb style={{ margin: "16px 0" }}>
       <Breadcrumb.Item>Home</Breadcrumb.Item>

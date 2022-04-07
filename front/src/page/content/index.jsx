@@ -17,7 +17,7 @@ const Middle = () => {
   // hook提供了很多钩子函数，每个钩子函数会在相应的生命周期执行。react的生命周期请参考：https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
   // setColumns会更新state，导致组件重新渲染（直接改变state并不会让组件重新渲染，以前的类组件使用this.setState,hook使用useState），相当于这个函数重新执行
   //组件有变化，这个函数就会重新执行，重新render并return，但是钩子函数只有在相应的生命周期才执行
-  console.log("Middle执行");
+  // console.log("Middle执行");
   let [columns, setColumns] = useState(columnsArr); //useState钩子函数
   let [value, setValue] = useState(70);
   const location = useLocation(); //使用这个hooks获取location对象

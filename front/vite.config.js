@@ -16,4 +16,10 @@ export default defineConfig({
       },
     ],
   },
+  server: {
+    proxy: {
+      // 字符串简写方式
+      '/ws': 'http://localhost:3001',
+    }
+  }
 });

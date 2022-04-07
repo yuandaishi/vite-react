@@ -1,6 +1,6 @@
 const Slot = (props) => {
   //模拟vue的插槽,需要自行实现
-  console.log("Slot执行");
+  // console.log("Slot执行");
   return (
     <div style={{ border: "3px solid #cccccc" }}>
       <p>slot组件展示区域</p>

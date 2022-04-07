@@ -2,11 +2,11 @@ import { Button } from "antd";
 import { useEffect, useRef, useState } from "react";
 
 const Option1 = () => {
-  console.log("组件更新");
+  // console.log("组件更新");
   const ref = useRef(null);
   const [value, setValue] = useState(Math.random());
   const T = useRef(Math.random());
-  console.log(T);
+  // console.log(T);
   useEffect(() => {
     console.log(
       document.getElementsByClassName("p-dom")[0],
