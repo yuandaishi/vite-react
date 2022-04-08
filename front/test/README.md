@@ -1,0 +1,2 @@
+1.使用jest做单元测试，需要安装npm install -D jest babel-jest babel-core babel-preset-env regenerator-runtime
+2.babel-jest、 babel-core、 regenerator-runtime、babel-preset-env这几个依赖是为了让我们可以使用ES6的语法特性进行单元测试，ES6提供的 import 来导入模块的方式，Jest本身是不支持的。
